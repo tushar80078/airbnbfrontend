@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+input[type="text"],input[type="password"],input[type="email"],input[type='tel'],textarea,input[type="number"]{
+    @apply w-full border my-1 py-2 px-3 rounded-2xl;
+}
+
+textarea{
+    height: 140px;
+}
+
+button{
+    @apply bg-gray-300; 
+}
+
+button.primaryy{
+    background-color: '#F5385D';
+    @apply bg-primary p-2 w-full text-white rounded rounded-2xl;
+}
+
+.mycolor{
+    background-color: '#F5385D';
+}
